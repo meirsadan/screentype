@@ -1,0 +1,51 @@
+body {
+    direction: rtl;
+    margin: 40px 20px;
+}
+
+a {
+    color: #240c9d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    font-family: "Secular One", sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+h1 {
+    border-top: 3px solid #240c9d;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    flex: 1 1 300px;
+    width: 100%;
+    margin: 10px;
+}
+
+p {
+    font-family: "Miriam Libre", sans-serif;
+    margin: 0 0 20px;
+}
+
+footer {
+    margin: 10px;
+    border-top: 3px solid #240c9d;
+    padding-top: 10px;
+}
